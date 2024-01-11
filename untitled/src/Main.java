@@ -1,9 +1,10 @@
-import BasicAlgorithm.MaxThree;
+import BasicAlgorithm.Comparing;
 
 public class Main {
     public static void main(String[] args) {
 
-        MaxThree maxThree = new MaxThree();
-        maxThree.max3();
+        Comparing comparing = new Comparing();
+//        comparing.max3();
+        comparing.med3();
     }
 }
