@@ -5,6 +5,7 @@ public class Main {
 
         Comparing comparing = new Comparing();
 //        comparing.max3();
-        comparing.med3();
+//        comparing.med3();
+        comparing.judgeSign();
     }
 }

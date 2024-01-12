@@ -49,4 +49,18 @@ public class Comparing {
             System.out.println("median number is : " + num2);
         }
     }
+
+    public void judgeSign(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("type the number");
+        int num1 = scanner.nextInt();
+
+        if (num1 > 0) {
+            System.out.println("number is +");
+        } else if (num1 < 0) {
+            System.out.println("number is -");
+        }else {
+            System.out.println("number is 0");
+        }
+    }
 }
