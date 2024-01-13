@@ -63,4 +63,6 @@ public class Comparing {
             System.out.println("number is 0");
         }
     }
+
+
 }
