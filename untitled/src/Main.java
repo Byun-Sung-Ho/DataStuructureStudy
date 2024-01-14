@@ -9,6 +9,7 @@ public class Main {
 //        comparing.max3();
 //        comparing.med3();
 //        comparing.judgeSign();
-        loop.sumOneToN();
+//        loop.sumOneToN();
+        loop.multiTable();
     }
 }
