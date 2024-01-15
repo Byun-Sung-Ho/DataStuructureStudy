@@ -10,6 +10,7 @@ public class Main {
 //        comparing.med3();
 //        comparing.judgeSign();
 //        loop.sumOneToN();
-        loop.multiTable();
+//        loop.multiTable();
+        loop.makeTriangle();
     }
 }
