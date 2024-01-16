@@ -11,6 +11,7 @@ public class Main {
 //        comparing.judgeSign();
 //        loop.sumOneToN();
 //        loop.multiTable();
-        loop.makeTriangle();
+//        loop.makeTriangle();
+        loop.makePyramid();
     }
 }
