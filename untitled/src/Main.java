@@ -16,6 +16,7 @@ public class Main {
 //        loop.makeTriangle();
 //        loop.makePyramid();
         int[] numbers = {1, 2, 3, 4};
-        arrays.IntArray(numbers);
+//        arrays.IntArray(numbers);
+        arrays.ReverseArray(numbers);
     }
 }

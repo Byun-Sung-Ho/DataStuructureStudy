@@ -8,4 +8,21 @@ public class Arrays {
         }
         System.out.println("numbers' sum is "+sum);
     }
+
+    public void ReverseArray(int[] numbers) {
+        for (int i = 0; i < numbers.length/2; i++) {
+            swap(numbers,i,numbers.length-i-1);
+        }
+        System.out.print("{");
+        for (int i = 0; i < numbers.length-1; i++) {
+            System.out.print(numbers[i]+",");
+        }
+        System.out.print(numbers[numbers.length-1]+"}");
+    }
+
+    public void swap(int[] numbers, int idx1, int idx2) {
+        int temp = numbers[idx1];
+        numbers[idx1] = numbers[idx2];
+        numbers[idx2] = temp;
+    }
 }
