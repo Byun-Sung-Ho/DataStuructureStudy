@@ -25,4 +25,19 @@ public class Arrays {
         numbers[idx1] = numbers[idx2];
         numbers[idx2] = temp;
     }
+
+    public boolean ArrayEqualCheck(int[] a, int[] b){
+        if (a.length != b.length) {
+            System.out.println("Arrays are not same");
+            return false;
+        }
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] != b[i]) {
+                System.out.println("Arrays are not same");
+                return false;
+            }
+        }
+        System.out.println("Arrays are same");
+        return true;
+    }
 }
