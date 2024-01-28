@@ -52,6 +52,22 @@ public class Loop {
             }
             System.out.println();
         }
+    }
 
+    public void checkPrimeNumber(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("type the number");
+        int num = scanner.nextInt();
+
+        int counter = 0;
+
+        for (int i = 2; i < num; i++) {
+            if (num%i==0){
+                System.out.println("It's not Prime Number");
+                break;
+            }
+        }
+
+        System.out.println("It's Prime Number");
     }
 }

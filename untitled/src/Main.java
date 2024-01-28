@@ -15,14 +15,16 @@ public class Main {
 //        loop.multiTable();
 //        loop.makeTriangle();
 //        loop.makePyramid();
-        int[] numbers1 = {1, 2, 3, 4};
-        int[] numbers2 = {1, 2, 3, 4};
-        int[] numbers3 = {1, 2, 3, 4, 5};
-        int[] numbers4 = {1, 2, 3, 8};
+//        int[] numbers1 = {1, 2, 3, 4};
+//        int[] numbers2 = {1, 2, 3, 4};
+//        int[] numbers3 = {1, 2, 3, 4, 5};
+//        int[] numbers4 = {1, 2, 3, 8};
 //        arrays.IntArray(numbers);
 //        arrays.ReverseArray(numbers);
-        arrays.ArrayEqualCheck(numbers1, numbers2);
-        arrays.ArrayEqualCheck(numbers1, numbers3);
-        arrays.ArrayEqualCheck(numbers1, numbers4);
+//        arrays.ArrayEqualCheck(numbers1, numbers2);
+//        arrays.ArrayEqualCheck(numbers1, numbers3);
+//        arrays.ArrayEqualCheck(numbers1, numbers4);
+
+        loop.checkPrimeNumber();
     }
 }
