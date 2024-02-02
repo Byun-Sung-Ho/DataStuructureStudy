@@ -54,7 +54,7 @@ public class Loop {
         }
     }
 
-    public void checkPrimeNumber(){
+    public boolean checkPrimeNumber(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("type the number");
         int num = scanner.nextInt();
@@ -64,10 +64,37 @@ public class Loop {
         for (int i = 2; i < num; i++) {
             if (num%i==0){
                 System.out.println("It's not Prime Number");
-                break;
+
+                return false;
             }
         }
 
         System.out.println("It's Prime Number");
+        return true;
     }
+    public int[] checkPrimeNumberInOdd(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("type the number");
+        int num = scanner.nextInt();
+
+        //소수 세팅
+        int ptr=0;
+        int[] primeArray = new int[500];
+        primeArray[ptr++]=2;
+
+        for (int i = 3; i < num; i = i+2) {
+            for (int j = 0; j < ptr; j++) {
+                if (i % primeArray[j]==0) {
+                    break;
+                }
+            }
+            primeArray[ptr++] = i;
+        }
+        System.out.println("Prime Number : ");
+        for (int i = 0; i < ptr; i++) {
+            System.out.println(primeArray[i]);
+        }
+        return primeArray;
+    }
+
 }

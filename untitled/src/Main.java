@@ -25,6 +25,7 @@ public class Main {
 //        arrays.ArrayEqualCheck(numbers1, numbers3);
 //        arrays.ArrayEqualCheck(numbers1, numbers4);
 
-        loop.checkPrimeNumber();
+//        loop.checkPrimeNumber();
+        loop.checkPrimeNumberInOdd();
     }
 }
