@@ -3,6 +3,15 @@ package BasicAlgorithm;
 import java.util.Scanner;
 
 public class Loop {
+    public void makeLoop(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("type the number");
+        int num1 = scanner.nextInt();
+
+        for (int i = 1; i <= num1; i++) {
+            System.out.println(i);
+        }
+    }
     public void sumOneToN() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("type the number");
