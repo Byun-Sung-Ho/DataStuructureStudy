@@ -11,7 +11,7 @@ public class Main {
 //        comparing.max3();
 //        comparing.med3();
 //        comparing.judgeSign();
-        loop.makeLoop();
+//        loop.makeLoop();
 //        loop.sumOneToN();
 //        loop.multiTable();
 //        loop.makeTriangle();
