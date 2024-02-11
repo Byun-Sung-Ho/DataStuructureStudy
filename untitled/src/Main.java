@@ -1,12 +1,14 @@
 import BasicAlgorithm.Comparing;
 import BasicAlgorithm.Loop;
 import BasicStructure.Arrays;
+import ClassExample.Person;
 
 public class Main {
     public static void main(String[] args) {
 
 //        Comparing comparing = new Comparing();
         Loop loop = new Loop();
+         Person person= new Person("변성호",178,0.7);
 //        Arrays arrays = new Arrays();
 //        comparing.max3();
 //        comparing.med3();
